@@ -1,0 +1,1407 @@
+{
+  "report_version": 1,
+  "generated_at": "2026-10-17T18:37:30+00:00",
+  "filters": {
+    "start": null,
+    "end": null,
+    "accounts": [],
+    "categories": [],
+    "merchant": null
+  },
+  "options": {
+    "top_n": 5,
+    "drop_probable_duplicates": true,
+    "rolling_window_days": 30
+  },
+  "totals": {
+    "income": 189807.6,
+    "gross_spend": 184179.22,
+    "refunds": 3030.71,
+    "expenses": 181148.51,
+    "net_cash_flow": 8659.09,
+    "savings_rate": 0.0456,
+    "internal_transfers_excluded": 120196.51,
+    "unmatched_transfers_excluded": 1170.0,
+    "transaction_count": 4950,
+    "spending_by_category": {
+      "Groceries": 48458.59,
+      "Housing": 33600.0,
+      "Shopping": 31142.45,
+      "Dining": 23827.23,
+      "Transportation": 16931.05,
+      "Travel": 8311.83,
+      "Home": 7997.28,
+      "Entertainment": 4189.28,
+      "Bills & Utilities": 3460.98,
+      "Health": 3193.94,
+      "Software": 35.88
+    },
+    "top_merchants": [
+      {
+        "merchant": "Parkview Apartments",
+        "total": 33600.0,
+        "purchases": 12,
+        "refunds": 0
+      },
+      {
+        "merchant": "Whole Foods",
+        "total": 21610.25,
+        "purchases": 369,
+        "refunds": 8
+      },
+      {
+        "merchant": "Amazon",
+        "total": 18629.7,
+        "purchases": 438,
+        "refunds": 4
+      },
+      {
+        "merchant": "Trader Joe's",
+        "total": 13224.93,
+        "purchases": 357,
+        "refunds": 9
+      },
+      {
+        "merchant": "Safeway",
+        "total": 10403.87,
+        "purchases": 268,
+        "refunds": 6
+      }
+    ]
+  },
+  "months": [
+    {
+      "month": "2025-10",
+      "income": 19272.56,
+      "gross_spend": 13884.42,
+      "refunds": 160.23,
+      "expenses": 13724.19,
+      "net_cash_flow": 5548.37,
+      "savings_rate": 0.2879,
+      "internal_transfers_excluded": 1000.0,
+      "unmatched_transfers_excluded": 0.0,
+      "transaction_count": 424,
+      "spending_by_category": {
+        "Groceries": 3333.81,
+        "Housing": 2800.0,
+        "Shopping": 2506.69,
+        "Dining": 1774.51,
+        "Transportation": 1499.45,
+        "Home": 540.96,
+        "Travel": 372.74,
+        "Entertainment": 344.64,
+        "Bills & Utilities": 280.81,
+        "Health": 267.59,
+        "Software": 2.99
+      },
+      "top_merchants": [
+        {
+          "merchant": "Parkview Apartments",
+          "total": 2800.0,
+          "purchases": 1,
+          "refunds": 0
+        },
+        {
+          "merchant": "Amazon",
+          "total": 1526.27,
+          "purchases": 44,
+          "refunds": 1
+        },
+        {
+          "merchant": "Whole Foods",
+          "total": 1517.45,
+          "purchases": 29,
+          "refunds": 0
+        },
+        {
+          "merchant": "Trader Joe's",
+          "total": 962.29,
+          "purchases": 30,
+          "refunds": 2
+        },
+        {
+          "merchant": "Target",
+          "total": 935.73,
+          "purchases": 19,
+          "refunds": 0
+        }
+      ],
+      "rolling_30_day_daily_average_at_month_end": 354.72
+    },
+    {
+      "month": "2025-11",
+      "income": 15119.02,
+      "gross_spend": 16311.08,
+      "refunds": 188.79,
+      "expenses": 16122.29,
+      "net_cash_flow": -1003.27,
+      "savings_rate": -0.0664,
+      "internal_transfers_excluded": 9635.24,
+      "unmatched_transfers_excluded": 450.0,
+      "transaction_count": 433,
+      "spending_by_category": {
+        "Groceries": 4300.69,
+        "Shopping": 2977.08,
+        "Housing": 2800.0,
+        "Dining": 2294.58,
+        "Transportation": 1297.23,
+        "Travel": 1047.69,
+        "Entertainment": 486.68,
+        "Home": 449.27,
+        "Bills & Utilities": 327.78,
+        "Health": 138.3,
+        "Software": 2.99
+      },
+      "top_merchants": [
+        {
+          "merchant": "Parkview Apartments",
+          "total": 2800.0,
+          "purchases": 1,
+          "refunds": 0
+        },
+        {
+          "merchant": "Whole Foods",
+          "total": 1699.12,
+          "purchases": 31,
+          "refunds": 2
+        },
+        {
+          "merchant": "Amazon",
+          "total": 1524.72,
+          "purchases": 35,
+          "refunds": 0
+        },
+        {
+          "merchant": "Trader Joe's",
+          "total": 1260.86,
+          "purchases": 33,
+          "refunds": 0
+        },
+        {
+          "merchant": "Target",
+          "total": 1155.68,
+          "purchases": 27,
+          "refunds": 0
+        }
+      ],
+      "rolling_30_day_daily_average_at_month_end": 537.41
+    },
+    {
+      "month": "2025-12",
+      "income": 15129.26,
+      "gross_spend": 15949.38,
+      "refunds": 285.5,
+      "expenses": 15663.88,
+      "net_cash_flow": -534.62,
+      "savings_rate": -0.0353,
+      "internal_transfers_excluded": 11567.4,
+      "unmatched_transfers_excluded": 0.0,
+      "transaction_count": 433,
+      "spending_by_category": {
+        "Groceries": 4820.5,
+        "Housing": 2800.0,
+        "Dining": 2304.32,
+        "Shopping": 2070.07,
+        "Transportation": 1258.52,
+        "Travel": 762.01,
+        "Home": 739.64,
+        "Health": 344.65,
+        "Entertainment": 311.85,
+        "Bills & Utilities": 249.33,
+        "Software": 2.99
+      },
+      "top_merchants": [
+        {
+          "merchant": "Parkview Apartments",
+          "total": 2800.0,
+          "purchases": 1,
+          "refunds": 0
+        },
+        {
+          "merchant": "Whole Foods",
+          "total": 2178.91,
+          "purchases": 36,
+          "refunds": 2
+        },
+        {
+          "merchant": "Trader Joe's",
+          "total": 1522.79,
+          "purchases": 35,
+          "refunds": 1
+        },
+        {
+          "merchant": "Amazon",
+          "total": 1338.75,
+          "purchases": 37,
+          "refunds": 0
+        },
+        {
+          "merchant": "Safeway",
+          "total": 838.84,
+          "purchases": 26,
+          "refunds": 1
+        }
+      ],
+      "rolling_30_day_daily_average_at_month_end": 414.3
+    },
+    {
+      "month": "2026-01",
+      "income": 15128.03,
+      "gross_spend": 15435.03,
+      "refunds": 59.96,
+      "expenses": 15375.07,
+      "net_cash_flow": -247.04,
+      "savings_rate": -0.0163,
+      "internal_transfers_excluded": 11801.75,
+      "unmatched_transfers_excluded": 0.0,
+      "transaction_count": 418,
+      "spending_by_category": {
+        "Groceries": 3675.42,
+        "Housing": 2800.0,
+        "Shopping": 2732.72,
+        "Dining": 2126.22,
+        "Transportation": 1725.95,
+        "Travel": 667.73,
+        "Home": 612.03,
+        "Entertainment": 436.69,
+        "Health": 317.76,
+        "Bills & Utilities": 277.56,
+        "Software": 2.99
+      },
+      "top_merchants": [
+        {
+          "merchant": "Parkview Apartments",
+          "total": 2800.0,
+          "purchases": 1,
+          "refunds": 0
+        },
+        {
+          "merchant": "Whole Foods",
+          "total": 1846.25,
+          "purchases": 31,
+          "refunds": 0
+        },
+        {
+          "merchant": "Amazon",
+          "total": 1255.18,
+          "purchases": 30,
+          "refunds": 0
+        },
+        {
+          "merchant": "Target",
+          "total": 982.54,
+          "purchases": 22,
+          "refunds": 0
+        },
+        {
+          "merchant": "Trader Joe's",
+          "total": 916.33,
+          "purchases": 24,
+          "refunds": 0
+        }
+      ],
+      "rolling_30_day_daily_average_at_month_end": 400.15
+    },
+    {
+      "month": "2026-02",
+      "income": 15127.14,
+      "gross_spend": 13497.72,
+      "refunds": 164.25,
+      "expenses": 13333.47,
+      "net_cash_flow": 1793.67,
+      "savings_rate": 0.1186,
+      "internal_transfers_excluded": 10294.67,
+      "unmatched_transfers_excluded": 0.0,
+      "transaction_count": 363,
+      "spending_by_category": {
+        "Groceries": 3387.62,
+        "Shopping": 2877.14,
+        "Housing": 2800.0,
+        "Dining": 1583.54,
+        "Transportation": 1186.27,
+        "Travel": 379.51,
+        "Entertainment": 335.64,
+        "Bills & Utilities": 313.72,
+        "Home": 238.71,
+        "Health": 228.33,
+        "Software": 2.99
+      },
+      "top_merchants": [
+        {
+          "merchant": "Parkview Apartments",
+          "total": 2800.0,
+          "purchases": 1,
+          "refunds": 0
+        },
+        {
+          "merchant": "Amazon",
+          "total": 1472.43,
+          "purchases": 32,
+          "refunds": 1
+        },
+        {
+          "merchant": "Whole Foods",
+          "total": 1392.4,
+          "purchases": 29,
+          "refunds": 1
+        },
+        {
+          "merchant": "Trader Joe's",
+          "total": 1181.1,
+          "purchases": 32,
+          "refunds": 0
+        },
+        {
+          "merchant": "Best Buy",
+          "total": 808.94,
+          "purchases": 3,
+          "refunds": 0
+        }
+      ],
+      "rolling_30_day_daily_average_at_month_end": 464.74
+    },
+    {
+      "month": "2026-03",
+      "income": 15123.71,
+      "gross_spend": 15550.15,
+      "refunds": 196.73,
+      "expenses": 15353.42,
+      "net_cash_flow": -229.71,
+      "savings_rate": -0.0152,
+      "internal_transfers_excluded": 9193.55,
+      "unmatched_transfers_excluded": 120.0,
+      "transaction_count": 394,
+      "spending_by_category": {
+        "Groceries": 4356.29,
+        "Housing": 2800.0,
+        "Shopping": 2275.88,
+        "Dining": 2221.26,
+        "Transportation": 1460.62,
+        "Travel": 798.15,
+        "Home": 750.03,
+        "Bills & Utilities": 318.58,
+        "Entertainment": 192.55,
+        "Health": 177.07,
+        "Software": 2.99
+      },
+      "top_merchants": [
+        {
+          "merchant": "Parkview Apartments",
+          "total": 2800.0,
+          "purchases": 1,
+          "refunds": 0
+        },
+        {
+          "merchant": "Whole Foods",
+          "total": 1697.36,
+          "purchases": 27,
+          "refunds": 0
+        },
+        {
+          "merchant": "Amazon",
+          "total": 1434.53,
+          "purchases": 34,
+          "refunds": 1
+        },
+        {
+          "merchant": "Trader Joe's",
+          "total": 1262.24,
+          "purchases": 30,
+          "refunds": 1
+        },
+        {
+          "merchant": "Safeway",
+          "total": 1116.73,
+          "purchases": 24,
+          "refunds": 1
+        }
+      ],
+      "rolling_30_day_daily_average_at_month_end": 403.11
+    },
+    {
+      "month": "2026-04",
+      "income": 15122.19,
+      "gross_spend": 15326.21,
+      "refunds": 896.73,
+      "expenses": 14429.48,
+      "net_cash_flow": 692.71,
+      "savings_rate": 0.0458,
+      "internal_transfers_excluded": 13201.44,
+      "unmatched_transfers_excluded": 0.0,
+      "transaction_count": 419,
+      "spending_by_category": {
+        "Groceries": 3445.21,
+        "Housing": 2800.0,
+        "Shopping": 2451.09,
+        "Dining": 1831.26,
+        "Transportation": 1383.91,
+        "Travel": 1203.43,
+        "Home": 550.03,
+        "Bills & Utilities": 290.56,
+        "Entertainment": 285.83,
+        "Health": 185.17,
+        "Software": 2.99
+      },
+      "top_merchants": [
+        {
+          "merchant": "Parkview Apartments",
+          "total": 2800.0,
+          "purchases": 1,
+          "refunds": 0
+        },
+        {
+          "merchant": "Whole Foods",
+          "total": 1433.41,
+          "purchases": 30,
+          "refunds": 0
+        },
+        {
+          "merchant": "Amazon",
+          "total": 1363.22,
+          "purchases": 32,
+          "refunds": 0
+        },
+        {
+          "merchant": "Trader Joe's",
+          "total": 1010.03,
+          "purchases": 25,
+          "refunds": 2
+        },
+        {
+          "merchant": "Airbnb",
+          "total": 837.56,
+          "purchases": 2,
+          "refunds": 1
+        }
+      ],
+      "rolling_30_day_daily_average_at_month_end": 480.98
+    },
+    {
+      "month": "2026-05",
+      "income": 19290.33,
+      "gross_spend": 15699.07,
+      "refunds": 93.16,
+      "expenses": 15605.91,
+      "net_cash_flow": 3684.42,
+      "savings_rate": 0.191,
+      "internal_transfers_excluded": 10119.4,
+      "unmatched_transfers_excluded": 0.0,
+      "transaction_count": 417,
+      "spending_by_category": {
+        "Groceries": 4234.22,
+        "Shopping": 2912.63,
+        "Housing": 2800.0,
+        "Dining": 1946.74,
+        "Transportation": 1645.69,
+        "Home": 811.92,
+        "Health": 417.42,
+        "Travel": 401.51,
+        "Bills & Utilities": 271.14,
+        "Entertainment": 161.65,
+        "Software": 2.99
+      },
+      "top_merchants": [
+        {
+          "merchant": "Parkview Apartments",
+          "total": 2800.0,
+          "purchases": 1,
+          "refunds": 0
+        },
+        {
+          "merchant": "Amazon",
+          "total": 2199.95,
+          "purchases": 43,
+          "refunds": 0
+        },
+        {
+          "merchant": "Whole Foods",
+          "total": 1941.99,
+          "purchases": 33,
+          "refunds": 1
+        },
+        {
+          "merchant": "Trader Joe's",
+          "total": 1055.55,
+          "purchases": 35,
+          "refunds": 1
+        },
+        {
+          "merchant": "Safeway",
+          "total": 956.72,
+          "purchases": 24,
+          "refunds": 0
+        }
+      ],
+      "rolling_30_day_daily_average_at_month_end": 412.85
+    },
+    {
+      "month": "2026-06",
+      "income": 15121.56,
+      "gross_spend": 15489.63,
+      "refunds": 289.19,
+      "expenses": 15200.44,
+      "net_cash_flow": -78.88,
+      "savings_rate": -0.0052,
+      "internal_transfers_excluded": 10559.92,
+      "unmatched_transfers_excluded": 0.0,
+      "transaction_count": 408,
+      "spending_by_category": {
+        "Groceries": 3874.84,
+        "Shopping": 3501.38,
+        "Housing": 2800.0,
+        "Dining": 1695.35,
+        "Transportation": 1318.05,
+        "Travel": 589.08,
+        "Home": 543.71,
+        "Entertainment": 306.2,
+        "Bills & Utilities": 300.73,
+        "Health": 268.11,
+        "Software": 2.99
+      },
+      "top_merchants": [
+        {
+          "merchant": "Parkview Apartments",
+          "total": 2800.0,
+          "purchases": 1,
+          "refunds": 0
+        },
+        {
+          "merchant": "Whole Foods",
+          "total": 1912.53,
+          "purchases": 30,
+          "refunds": 0
+        },
+        {
+          "merchant": "Amazon",
+          "total": 1876.33,
+          "purchases": 34,
+          "refunds": 1
+        },
+        {
+          "merchant": "Target",
+          "total": 934.11,
+          "purchases": 21,
+          "refunds": 1
+        },
+        {
+          "merchant": "Trader Joe's",
+          "total": 905.71,
+          "purchases": 30,
+          "refunds": 1
+        }
+      ],
+      "rolling_30_day_daily_average_at_month_end": 506.68
+    },
+    {
+      "month": "2026-07",
+      "income": 15135.28,
+      "gross_spend": 15069.96,
+      "refunds": 160.27,
+      "expenses": 14909.69,
+      "net_cash_flow": 225.59,
+      "savings_rate": 0.0149,
+      "internal_transfers_excluded": 10905.07,
+      "unmatched_transfers_excluded": 600.0,
+      "transaction_count": 432,
+      "spending_by_category": {
+        "Groceries": 3910.49,
+        "Housing": 2800.0,
+        "Dining": 2147.63,
+        "Shopping": 2038.05,
+        "Transportation": 1392.47,
+        "Home": 919.81,
+        "Travel": 717.68,
+        "Entertainment": 454.87,
+        "Bills & Utilities": 270.46,
+        "Health": 255.24,
+        "Software": 2.99
+      },
+      "top_merchants": [
+        {
+          "merchant": "Parkview Apartments",
+          "total": 2800.0,
+          "purchases": 1,
+          "refunds": 0
+        },
+        {
+          "merchant": "Whole Foods",
+          "total": 1616.93,
+          "purchases": 30,
+          "refunds": 2
+        },
+        {
+          "merchant": "Amazon",
+          "total": 1299.24,
+          "purchases": 38,
+          "refunds": 0
+        },
+        {
+          "merchant": "Safeway",
+          "total": 1052.37,
+          "purchases": 24,
+          "refunds": 0
+        },
+        {
+          "merchant": "Trader Joe's",
+          "total": 1031.22,
+          "purchases": 30,
+          "refunds": 0
+        }
+      ],
+      "rolling_30_day_daily_average_at_month_end": 384.05
+    },
+    {
+      "month": "2026-08",
+      "income": 15119.3,
+      "gross_spend": 16518.02,
+      "refunds": 470.12,
+      "expenses": 16047.9,
+      "net_cash_flow": -928.6,
+      "savings_rate": -0.0614,
+      "internal_transfers_excluded": 10449.3,
+      "unmatched_transfers_excluded": 0.0,
+      "transaction_count": 418,
+      "spending_by_category": {
+        "Groceries": 4334.91,
+        "Housing": 2800.0,
+        "Shopping": 2361.35,
+        "Dining": 1924.57,
+        "Home": 1198.25,
+        "Travel": 1191.95,
+        "Transportation": 1140.92,
+        "Entertainment": 411.25,
+        "Health": 381.58,
+        "Bills & Utilities": 300.13,
+        "Software": 2.99
+      },
+      "top_merchants": [
+        {
+          "merchant": "Parkview Apartments",
+          "total": 2800.0,
+          "purchases": 1,
+          "refunds": 0
+        },
+        {
+          "merchant": "Whole Foods",
+          "total": 2008.84,
+          "purchases": 28,
+          "refunds": 0
+        },
+        {
+          "merchant": "Amazon",
+          "total": 1780.77,
+          "purchases": 40,
+          "refunds": 0
+        },
+        {
+          "merchant": "Home Depot",
+          "total": 1198.25,
+          "purchases": 12,
+          "refunds": 0
+        },
+        {
+          "merchant": "Trader Joe's",
+          "total": 1089.81,
+          "purchases": 29,
+          "refunds": 0
+        }
+      ],
+      "rolling_30_day_daily_average_at_month_end": 422.5
+    },
+    {
+      "month": "2026-09",
+      "income": 15119.22,
+      "gross_spend": 15448.55,
+      "refunds": 65.78,
+      "expenses": 15382.77,
+      "net_cash_flow": -263.55,
+      "savings_rate": -0.0174,
+      "internal_transfers_excluded": 11468.77,
+      "unmatched_transfers_excluded": 0.0,
+      "transaction_count": 391,
+      "spending_by_category": {
+        "Groceries": 4784.59,
+        "Housing": 2800.0,
+        "Shopping": 2438.37,
+        "Dining": 1977.25,
+        "Transportation": 1621.97,
+        "Home": 642.92,
+        "Entertainment": 461.43,
+        "Bills & Utilities": 260.18,
+        "Health": 212.72,
+        "Travel": 180.35,
+        "Software": 2.99
+      },
+      "top_merchants": [
+        {
+          "merchant": "Parkview Apartments",
+          "total": 2800.0,
+          "purchases": 1,
+          "refunds": 0
+        },
+        {
+          "merchant": "Whole Foods",
+          "total": 2365.06,
+          "purchases": 35,
+          "refunds": 0
+        },
+        {
+          "merchant": "Amazon",
+          "total": 1558.31,
+          "purchases": 39,
+          "refunds": 0
+        },
+        {
+          "merchant": "Safeway",
+          "total": 1112.57,
+          "purchases": 23,
+          "refunds": 0
+        },
+        {
+          "merchant": "Trader Joe's",
+          "total": 1027.0,
+          "purchases": 24,
+          "refunds": 1
+        }
+      ],
+      "rolling_30_day_daily_average_at_month_end": 512.76
+    }
+  ],
+  "recurring_charges": [
+    {
+      "merchant": "Parkview Apartments",
+      "category": "Housing",
+      "cadence": "monthly",
+      "current_amount": 2800.0,
+      "occurrences": 12,
+      "first_date": "2025-10-01",
+      "last_date": "2026-09-01",
+      "next_expected": "2026-10-01",
+      "annualized_cost": 33600.0,
+      "accounts": [
+        "checking_1"
+      ],
+      "active": true,
+      "price_changes": []
+    },
+    {
+      "merchant": "HelloFresh",
+      "category": "Groceries",
+      "cadence": "weekly",
+      "current_amount": 69.99,
+      "occurrences": 46,
+      "first_date": "2025-10-02",
+      "last_date": "2026-09-24",
+      "next_expected": "2026-10-01",
+      "annualized_cost": 3639.48,
+      "accounts": [
+        "credit_1"
+      ],
+      "active": true,
+      "price_changes": []
+    },
+    {
+      "merchant": "Comcast Xfinity",
+      "category": "Bills & Utilities",
+      "cadence": "monthly",
+      "current_amount": 89.99,
+      "occurrences": 12,
+      "first_date": "2025-10-15",
+      "last_date": "2026-09-15",
+      "next_expected": "2026-10-15",
+      "annualized_cost": 1079.88,
+      "accounts": [
+        "checking_1"
+      ],
+      "active": true,
+      "price_changes": []
+    },
+    {
+      "merchant": "Verizon Wireless",
+      "category": "Bills & Utilities",
+      "cadence": "monthly",
+      "current_amount": 85.0,
+      "occurrences": 12,
+      "first_date": "2025-10-25",
+      "last_date": "2026-09-25",
+      "next_expected": "2026-10-25",
+      "annualized_cost": 1020.0,
+      "accounts": [
+        "credit_1"
+      ],
+      "active": true,
+      "price_changes": []
+    },
+    {
+      "merchant": "Planet Fitness",
+      "category": "Health",
+      "cadence": "monthly",
+      "current_amount": 24.99,
+      "occurrences": 12,
+      "first_date": "2025-10-01",
+      "last_date": "2026-09-01",
+      "next_expected": "2026-10-01",
+      "annualized_cost": 299.88,
+      "accounts": [
+        "credit_1"
+      ],
+      "active": true,
+      "price_changes": []
+    },
+    {
+      "merchant": "Netflix",
+      "category": "Entertainment",
+      "cadence": "monthly",
+      "current_amount": 17.99,
+      "occurrences": 12,
+      "first_date": "2025-10-12",
+      "last_date": "2026-09-12",
+      "next_expected": "2026-10-12",
+      "annualized_cost": 215.88,
+      "accounts": [
+        "credit_1"
+      ],
+      "active": true,
+      "price_changes": [
+        {
+          "date": "2026-05-12",
+          "from": 15.49,
+          "to": 17.99
+        }
+      ]
+    },
+    {
+      "merchant": "Spotify",
+      "category": "Entertainment",
+      "cadence": "monthly",
+      "current_amount": 11.99,
+      "occurrences": 12,
+      "first_date": "2025-10-03",
+      "last_date": "2026-09-03",
+      "next_expected": "2026-10-03",
+      "annualized_cost": 143.88,
+      "accounts": [
+        "credit_1"
+      ],
+      "active": true,
+      "price_changes": []
+    },
+    {
+      "merchant": "iCloud Storage",
+      "category": "Software",
+      "cadence": "monthly",
+      "current_amount": 2.99,
+      "occurrences": 12,
+      "first_date": "2025-10-20",
+      "last_date": "2026-09-20",
+      "next_expected": "2026-10-20",
+      "annualized_cost": 35.88,
+      "accounts": [
+        "credit_1"
+      ],
+      "active": true,
+      "price_changes": []
+    },
+    {
+      "merchant": "Hulu",
+      "category": "Entertainment",
+      "cadence": "monthly",
+      "current_amount": 7.99,
+      "occurrences": 5,
+      "first_date": "2025-10-09",
+      "last_date": "2026-02-09",
+      "next_expected": "2026-03-09",
+      "annualized_cost": 95.88,
+      "accounts": [
+        "credit_2"
+      ],
+      "active": false,
+      "price_changes": []
+    }
+  ],
+  "probable_duplicates": [
+    {
+      "account_id": "credit_2",
+      "merchant": "Starbucks",
+      "amount": -5.04,
+      "dates": [
+        "2025-10-16"
+      ],
+      "ids": [
+        "tx_00219",
+        "tx_00220"
+      ],
+      "suggested_keep": "tx_00219"
+    },
+    {
+      "account_id": "checking_1",
+      "merchant": "AMC Theatres",
+      "amount": -30.36,
+      "dates": [
+        "2025-10-23"
+      ],
+      "ids": [
+        "tx_00314",
+        "tx_00315"
+      ],
+      "suggested_keep": "tx_00314"
+    },
+    {
+      "account_id": "credit_1",
+      "merchant": "Amazon",
+      "amount": -122.43,
+      "dates": [
+        "2025-10-25"
+      ],
+      "ids": [
+        "tx_00343",
+        "tx_00344"
+      ],
+      "suggested_keep": "tx_00343"
+    },
+    {
+      "account_id": "checking_1",
+      "merchant": "STARBUCKS #4471",
+      "amount": -5.78,
+      "dates": [
+        "2025-11-01"
+      ],
+      "ids": [
+        "tx_00431",
+        "tx_00432"
+      ],
+      "suggested_keep": "tx_00431"
+    },
+    {
+      "account_id": "credit_1",
+      "merchant": "Whole Foods",
+      "amount": -59.47,
+      "dates": [
+        "2025-11-13"
+      ],
+      "ids": [
+        "tx_00614",
+        "tx_00615"
+      ],
+      "suggested_keep": "tx_00614"
+    },
+    {
+      "account_id": "checking_1",
+      "merchant": "Chipotle",
+      "amount": -9.41,
+      "dates": [
+        "2025-11-18"
+      ],
+      "ids": [
+        "tx_00676",
+        "tx_00677"
+      ],
+      "suggested_keep": "tx_00676"
+    },
+    {
+      "account_id": "credit_1",
+      "merchant": "Home Depot",
+      "amount": -238.22,
+      "dates": [
+        "2025-11-18"
+      ],
+      "ids": [
+        "tx_00685",
+        "tx_00686"
+      ],
+      "suggested_keep": "tx_00685"
+    },
+    {
+      "account_id": "credit_1",
+      "merchant": "Whole Foods",
+      "amount": -18.0,
+      "dates": [
+        "2025-11-25"
+      ],
+      "ids": [
+        "tx_00789",
+        "tx_00790"
+      ],
+      "suggested_keep": "tx_00789"
+    },
+    {
+      "account_id": "credit_2",
+      "merchant": "Sweetgreen",
+      "amount": -19.63,
+      "dates": [
+        "2025-12-07"
+      ],
+      "ids": [
+        "tx_00966",
+        "tx_00967"
+      ],
+      "suggested_keep": "tx_00966"
+    },
+    {
+      "account_id": "credit_1",
+      "merchant": "DOORDASH*ORDER",
+      "amount": -32.85,
+      "dates": [
+        "2025-12-27"
+      ],
+      "ids": [
+        "tx_01237",
+        "tx_01238"
+      ],
+      "suggested_keep": "tx_01237"
+    },
+    {
+      "account_id": "credit_1",
+      "merchant": "STARBUCKS #4471",
+      "amount": -4.88,
+      "dates": [
+        "2026-01-09"
+      ],
+      "ids": [
+        "tx_01418",
+        "tx_01419"
+      ],
+      "suggested_keep": "tx_01418"
+    },
+    {
+      "account_id": "credit_2",
+      "merchant": "CVS/PHARMACY #0912",
+      "amount": -10.97,
+      "dates": [
+        "2026-02-12"
+      ],
+      "ids": [
+        "tx_01882",
+        "tx_01883"
+      ],
+      "suggested_keep": "tx_01882"
+    },
+    {
+      "account_id": "checking_1",
+      "merchant": "Trader Joe's",
+      "amount": -22.78,
+      "dates": [
+        "2026-02-16"
+      ],
+      "ids": [
+        "tx_01922",
+        "tx_01923"
+      ],
+      "suggested_keep": "tx_01922"
+    },
+    {
+      "account_id": "credit_1",
+      "merchant": "Sweetgreen",
+      "amount": -17.3,
+      "dates": [
+        "2026-03-12"
+      ],
+      "ids": [
+        "tx_02247",
+        "tx_02248"
+      ],
+      "suggested_keep": "tx_02247"
+    },
+    {
+      "account_id": "credit_1",
+      "merchant": "Shell",
+      "amount": -29.28,
+      "dates": [
+        "2026-03-14"
+      ],
+      "ids": [
+        "tx_02274",
+        "tx_02275"
+      ],
+      "suggested_keep": "tx_02274"
+    },
+    {
+      "account_id": "credit_1",
+      "merchant": "AMC Theatres",
+      "amount": -37.31,
+      "dates": [
+        "2026-06-20"
+      ],
+      "ids": [
+        "tx_03585",
+        "tx_03586"
+      ],
+      "suggested_keep": "tx_03585"
+    },
+    {
+      "account_id": "credit_1",
+      "merchant": "Chipotle",
+      "amount": -13.27,
+      "dates": [
+        "2026-06-20"
+      ],
+      "ids": [
+        "tx_03588",
+        "tx_03589"
+      ],
+      "suggested_keep": "tx_03588"
+    },
+    {
+      "account_id": "credit_1",
+      "merchant": "TARGET #0342",
+      "amount": -28.36,
+      "dates": [
+        "2026-07-14"
+      ],
+      "ids": [
+        "tx_03917",
+        "tx_03918"
+      ],
+      "suggested_keep": "tx_03917"
+    },
+    {
+      "account_id": "credit_1",
+      "merchant": "AMAZON.COM*MK1A2",
+      "amount": -22.19,
+      "dates": [
+        "2026-08-21"
+      ],
+      "ids": [
+        "tx_04430",
+        "tx_04431"
+      ],
+      "suggested_keep": "tx_04430"
+    },
+    {
+      "account_id": "credit_1",
+      "merchant": "Sweetgreen",
+      "amount": -11.42,
+      "dates": [
+        "2026-09-09"
+      ],
+      "ids": [
+        "tx_04702",
+        "tx_04703"
+      ],
+      "suggested_keep": "tx_04702"
+    }
+  ],
+  "data_quality": {
+    "total_records": 5000,
+    "valid_transactions": 4970,
+    "rejected_records": 15,
+    "exact_duplicates_removed": 15,
+    "categories_inferred": 206,
+    "uncategorized": 0,
+    "internal_transfer_pairs": 35,
+    "internal_transfer_pairs_by_method": {
+      "transfer_id": 32,
+      "matched": 3
+    },
+    "unmatched_transfers": [
+      {
+        "id": "tx_00824",
+        "account_id": "checking_1",
+        "date": "2025-11-28",
+        "merchant": "Zelle Transfer - Roommate",
+        "amount": -450.0,
+        "type": "transfer",
+        "category": null,
+        "effective_category": "Transfer",
+        "category_inferred": false,
+        "kind": "unmatched_transfer",
+        "transfer_group": null
+      },
+      {
+        "id": "tx_02092",
+        "account_id": "checking_1",
+        "date": "2026-03-01",
+        "merchant": "Zelle Transfer - Roommate",
+        "amount": -120.0,
+        "type": "transfer",
+        "category": null,
+        "effective_category": "Transfer",
+        "category_inferred": false,
+        "kind": "unmatched_transfer",
+        "transfer_group": null
+      },
+      {
+        "id": "tx_03981",
+        "account_id": "checking_1",
+        "date": "2026-07-19",
+        "merchant": "Zelle Transfer - Roommate",
+        "amount": -600.0,
+        "type": "transfer",
+        "category": null,
+        "effective_category": "Transfer",
+        "category_inferred": false,
+        "kind": "unmatched_transfer",
+        "transfer_group": null
+      }
+    ],
+    "issues": [
+      {
+        "index": 103,
+        "id": "tx_bad_11",
+        "field": "amount",
+        "message": "must be a number, not a boolean"
+      },
+      {
+        "index": 178,
+        "id": "tx_00146",
+        "field": "id",
+        "message": "id already used by record 146 with different content; first occurrence kept"
+      },
+      {
+        "index": 324,
+        "id": "tx_00287",
+        "field": "id",
+        "message": "id already used by record 288 with different content; first occurrence kept"
+      },
+      {
+        "index": 847,
+        "id": "tx_bad_12",
+        "field": "amount",
+        "message": "income must have a positive amount (money in)"
+      },
+      {
+        "index": 884,
+        "id": "tx_bad_05",
+        "field": "account_id",
+        "message": "unknown account 'checking_9'"
+      },
+      {
+        "index": 889,
+        "id": "tx_bad_01",
+        "field": "amount",
+        "message": "missing required field"
+      },
+      {
+        "index": 1229,
+        "id": "tx_01190",
+        "field": "id",
+        "message": "id already used by record 1198 with different content; first occurrence kept"
+      },
+      {
+        "index": 1261,
+        "id": "tx_bad_10",
+        "field": "date",
+        "message": "missing required field"
+      },
+      {
+        "index": 1321,
+        "id": "tx_bad_03",
+        "field": "date",
+        "message": "must be a valid ISO date (YYYY-MM-DD), got '2026-02-30'"
+      },
+      {
+        "index": 2322,
+        "id": "tx_bad_07",
+        "field": "amount",
+        "message": "purchase must have a negative amount (money out)"
+      },
+      {
+        "index": 3044,
+        "id": "tx_bad_06",
+        "field": "type",
+        "message": "must be one of purchase, income, refund, transfer, payment, fee; got 'bonus'"
+      },
+      {
+        "index": 3411,
+        "id": "tx_bad_04",
+        "field": "date",
+        "message": "must be a valid ISO date (YYYY-MM-DD), got '10/05/2026'"
+      },
+      {
+        "index": 3939,
+        "id": null,
+        "field": "id",
+        "message": "missing required field"
+      },
+      {
+        "index": 4489,
+        "id": "tx_bad_08",
+        "field": "amount",
+        "message": "must not have more than 2 decimal places"
+      },
+      {
+        "index": 4858,
+        "id": "tx_bad_02",
+        "field": "amount",
+        "message": "must be a number, got str"
+      }
+    ],
+    "exact_duplicates": [
+      {
+        "index": 424,
+        "id": "tx_00399",
+        "first_index": 401
+      },
+      {
+        "index": 433,
+        "id": "tx_00428",
+        "first_index": 431
+      },
+      {
+        "index": 826,
+        "id": "tx_00791",
+        "first_index": 795
+      },
+      {
+        "index": 1331,
+        "id": "tx_01295",
+        "first_index": 1305
+      },
+      {
+        "index": 1859,
+        "id": "tx_01831",
+        "first_index": 1843
+      },
+      {
+        "index": 1873,
+        "id": "tx_01853",
+        "first_index": 1866
+      },
+      {
+        "index": 2252,
+        "id": "tx_02207",
+        "first_index": 2221
+      },
+      {
+        "index": 2741,
+        "id": "tx_02694",
+        "first_index": 2710
+      },
+      {
+        "index": 3158,
+        "id": "tx_03112",
+        "first_index": 3130
+      },
+      {
+        "index": 3182,
+        "id": "tx_03140",
+        "first_index": 3159
+      },
+      {
+        "index": 3278,
+        "id": "tx_03236",
+        "first_index": 3256
+      },
+      {
+        "index": 3600,
+        "id": "tx_03564",
+        "first_index": 3586
+      },
+      {
+        "index": 3876,
+        "id": "tx_03819",
+        "first_index": 3842
+      },
+      {
+        "index": 3923,
+        "id": "tx_03886",
+        "first_index": 3910
+      },
+      {
+        "index": 4501,
+        "id": "tx_04458",
+        "first_index": 4484
+      }
+    ]
+  }
+}

@@ -1,0 +1,12 @@
+[project]
+name = "personal-finance"
+version = "0.1.0"
+description = "Personal finance analytics engine (standard library only)"
+requires-python = ">=3.11"
+
+[tool.ruff]
+line-length = 120
+target-version = "py311"
+
+[tool.ruff.lint]
+select = ["F", "E", "W", "B", "I", "UP", "SIM", "RUF", "C4", "PIE", "RET"]

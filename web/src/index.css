@@ -1,0 +1,108 @@
+@import "tailwindcss";
+
+/*
+ * Design tokens. Everything in the UI is written against these roles, so light and
+ * dark mode swap in one place. Grays are warm-tinted (Refactoring UI: "your grays
+ * don't have to be gray"); chart series colors are the validated pair (blue/orange).
+ */
+:root {
+  color-scheme: light;
+  --page: #f4f3ef;
+  --surface: #ffffff;
+  --surface-sunken: #f7f6f3;
+  --ink: #0b0b0b;
+  --ink-2: #52514e;
+  --muted: #7d7b75;
+  --grid: #e8e7e1;
+  --axis: #c3c2b7;
+  --hairline: rgba(11, 11, 11, 0.08);
+
+  --accent: #2a78d6;
+  --accent-soft: #e6f0fc;
+  --accent-ink: #1c5cab;
+
+  --series-1: #2a78d6;
+  --series-2: #eb6834;
+
+  --good: #0ca30c;
+  --good-soft: #e5f5e5;
+  --good-ink: #006300;
+  --warning: #fab219;
+  --warning-soft: #fdf3dc;
+  --warning-ink: #7a5300;
+  --critical: #d03b3b;
+  --critical-soft: #fbe9e9;
+  --critical-ink: #a32626;
+
+  --shadow-card: 0 1px 2px rgba(11, 11, 11, 0.04), 0 1px 3px rgba(11, 11, 11, 0.06);
+  --shadow-pop: 0 4px 6px -1px rgba(11, 11, 11, 0.08), 0 10px 24px -4px rgba(11, 11, 11, 0.12);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:where(:not([data-theme="light"])) {
+    color-scheme: dark;
+    --page: #0d0d0d;
+    --surface: #1a1a19;
+    --surface-sunken: #222220;
+    --ink: #f0efec;
+    --ink-2: #c3c2b7;
+    --muted: #898781;
+    --grid: #2c2c2a;
+    --axis: #383835;
+    --hairline: rgba(255, 255, 255, 0.08);
+    --accent: #3987e5;
+    --accent-soft: #14294a;
+    --accent-ink: #9ec5f4;
+    --series-1: #3987e5;
+    --series-2: #d95926;
+    --good-soft: #0f2a0f;
+    --good-ink: #4cc44c;
+    --warning-soft: #2e2410;
+    --warning-ink: #f5c45a;
+    --critical-soft: #331616;
+    --critical-ink: #ef8a8a;
+    --shadow-card: 0 0 0 1px rgba(255, 255, 255, 0.06);
+    --shadow-pop: 0 0 0 1px rgba(255, 255, 255, 0.08), 0 12px 28px rgba(0, 0, 0, 0.5);
+  }
+}
+
+@theme inline {
+  --color-page: var(--page);
+  --color-surface: var(--surface);
+  --color-sunken: var(--surface-sunken);
+  --color-ink: var(--ink);
+  --color-ink-2: var(--ink-2);
+  --color-muted: var(--muted);
+  --color-grid: var(--grid);
+  --color-axis: var(--axis);
+  --color-hairline: var(--hairline);
+  --color-accent: var(--accent);
+  --color-accent-soft: var(--accent-soft);
+  --color-accent-ink: var(--accent-ink);
+  --color-series-1: var(--series-1);
+  --color-series-2: var(--series-2);
+  --color-good: var(--good);
+  --color-good-soft: var(--good-soft);
+  --color-good-ink: var(--good-ink);
+  --color-warning: var(--warning);
+  --color-warning-soft: var(--warning-soft);
+  --color-warning-ink: var(--warning-ink);
+  --color-critical: var(--critical);
+  --color-critical-soft: var(--critical-soft);
+  --color-critical-ink: var(--critical-ink);
+  --shadow-card: var(--shadow-card);
+  --shadow-pop: var(--shadow-pop);
+  --font-sans: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+}
+
+body {
+  background: var(--page);
+  color: var(--ink);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Columns of numbers align; standalone big numbers keep proportional figures. */
+.num {
+  font-variant-numeric: tabular-nums;
+}
