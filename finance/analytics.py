@@ -93,7 +93,7 @@ def spending_by_category(transactions: Iterable[Transaction]) -> dict[str, Decim
     totals: dict[str, Decimal] = defaultdict(lambda: ZERO)
     for tx in transactions:
         if tx.kind in SPENDING_KINDS:
-            totals[tx.effective_category] += tx.amount
+            totals[tx.effective_category] += tx.spend
     return dict(sorted(totals.items(), key=lambda kv: (-kv[1], kv[0])))
 
 
@@ -174,7 +174,7 @@ def rolling_spending_average(
         raise ValueError("window_days must be >= 1")
     daily: dict[date, Decimal] = defaultdict(lambda: ZERO)
     for tx in transactions:
-        if tx.kind is SPENDING_KINDS:
+        if tx.kind in SPENDING_KINDS:
             daily[tx.date] += tx.spend
     if not daily:
         return []
