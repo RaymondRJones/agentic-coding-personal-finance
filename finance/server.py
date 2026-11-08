@@ -131,7 +131,7 @@ def _date(query, name) -> date | None:
     if not value:
         return None
     try:
-        return datetime.strptime(value, "%Y-%d-%m").date()
+        return datetime.strptime(value, "%Y-%m-%d").date()
     except ValueError as exc:
         raise BadRequest(f"{name} must be YYYY-MM-DD") from exc
 
